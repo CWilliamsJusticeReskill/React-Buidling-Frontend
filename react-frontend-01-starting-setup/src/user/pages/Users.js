@@ -8,7 +8,7 @@ const Users = () => {
       id: "u1",
       name: "Justice Reskill",
       image:
-        "	https://justicereskill.com/_next/image?url=%2Fjustice-reskill-logo.png&w=1080&q=75",
+        "https://media-exp1.licdn.com/dms/image/C4E03AQFL99Srozo1Vw/profile-displayphoto-shrink_400_400/0/1617816426679?e=1646265600&v=beta&t=cs-Cm7aQOXiJFcQjS2FdG9u9iHfm-MrRbltPNJdOjO0",
       places: 1,
     },
   ];

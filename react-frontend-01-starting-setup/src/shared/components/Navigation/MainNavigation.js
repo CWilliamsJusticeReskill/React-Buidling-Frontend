@@ -38,7 +38,7 @@ const MainNavigation = (props) => {
           <span />
         </button>
         <h1 className="main-navigation__title">
-          <Link to="/">Justice Reskill Places</Link>
+          <Link to="/">My Justice Reskill</Link>
         </h1>
         <nav className="main-navigation__header-nav">
           <NavLinks />

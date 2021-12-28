@@ -1,14 +1,15 @@
+import { colorize } from "istanbul/lib/report/common/defaults";
 import React from "react";
 
 import Card from "../../shared/components/UIElements/Card";
 import PlaceItem from "./PlaceItem";
 import "./PlaceList.css";
 const PlaceList = (props) => {
-  if (props.itemslength === 0) {
+  if (props.items.length === 0) {
     return (
       <div className="place-list center">
-        <Card>
-          <h2>No Jedi's Found. Maybe create one?</h2>
+        <Card className="card">
+          <h2>No Places Found. Maybe create one?</h2>
           <button>Share Place</button>
         </Card>
       </div>

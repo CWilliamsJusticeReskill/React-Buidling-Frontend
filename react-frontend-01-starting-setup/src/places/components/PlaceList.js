@@ -1,4 +1,3 @@
-import { colorize } from "istanbul/lib/report/common/defaults";
 import React from "react";
 
 import Card from "../../shared/components/UIElements/Card";

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@googlemaps/js-api-loader": "^1.13.1",
     "istanbul": "^0.4.5",
     "nyc": "^15.1.0",
     "react": "^16.11.0",

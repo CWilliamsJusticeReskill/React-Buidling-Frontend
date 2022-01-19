@@ -1,7 +1,6 @@
 import React, { useReducer, useEffect } from "react";
 
-import { validate } from "../util/validators";
-
+import { validate } from "../../components/util/validators";
 import "./Input.css";
 
 const inputReducer = (state, action) => {
@@ -79,7 +78,7 @@ const Input = (props) => {
     >
       <label htmlFor={props.id}>{props.label}</label>
       {element}
-      {!inputState.isValid && <p>{props.errorText}</p>}
+      {!inputState.isValid && inputState.isTouched && <p>{props.errorText}</p>}
     </div>
   );
 };
